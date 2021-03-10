@@ -1,0 +1,251 @@
+@import "reset.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kalam&family=Teko:wght@700&display=swap');
+
+body {
+    background: url(../img/bgsang.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.foto-text {
+    margin: -1px -4px 0px auto;
+    font-size: 10px;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    background: #fff;
+    max-width: 100px;
+    padding: 5px;
+    position: relative;
+    color: #000;
+    z-index: 2;
+    border-radius: 0px 0px 10px 10px;
+    span {
+        font-size: 12px;
+        white-space: nowrap;
+        color: #8a500e;
+        font-weight: 600;
+    }
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.sang {
+
+    &__inner {
+        padding-bottom: 50px;
+    }
+
+    &__card-foto {
+        padding: 100px 0px 100px 0px;
+        text-align: center;
+    }
+
+    &__title {
+        color: #c48608;
+        font-size: 50px;
+        line-height: 50px;
+        font-family: 'Teko', sans-serif;
+        font-weight: 700;
+    }
+
+    &__subtitle {
+        color: #c48608;
+        font-size: 50px;
+        line-height: 100px;
+        font-style: italic;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    &__foto {
+        margin-top: 50px;
+    }
+
+    &__item-foto-gold {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    &__item-foto-inner-gold {
+        max-width: 500px;
+        max-height: 350px;
+    }
+
+    &__foto-gold {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-color: #fff;
+        padding: 2px;
+        margin-bottom: -2px;
+        border-radius: 20px 20px 0px 20px;
+        overflow: hidden;
+        box-shadow: 0px 0px 100px gold;
+    }
+
+
+	&__item-foto-silver {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 150px;
+	}
+
+    &__item-foto-inner-silver {
+        max-width: 400px;
+        max-height: 230px;
+    }
+
+	&__foto-silver {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-color: #fff;
+        padding: 2px;
+        margin-bottom: -2px;
+        border-radius: 20px 20px 0px 20px;
+        overflow: hidden;
+        box-shadow: 0px 0px 100px #c2c2c2;
+	}
+
+	&__item-foto-bronza {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 150px;
+	}
+
+	&__item-foto-inner-bronza {
+        max-width: 300px;
+        max-height: 200px;
+	}
+
+	&__foto-bronza {
+        background-color: #fff;
+        padding: 2px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-bottom: -2px;
+        border-radius: 20px 20px 0px 20px;
+        overflow: hidden;
+        box-shadow: 0px 0px 100px #734d00;
+	}
+
+	&__item-foto-simple {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+        flex-wrap: wrap;
+	}
+
+
+	&__item-foto-inner-simple {
+        max-width: 250px;
+        max-height: 150px;
+        margin-top: 50px;
+	}
+
+	&__foto-simple {
+        background-color: #fff;
+        padding: 2px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-bottom: -2px;
+        border-radius: 20px 20px 0px 20px;
+        overflow: hidden;
+	}
+
+	&__link-web {
+        display: flex;
+        justify-content: space-between;
+	}
+
+    &__link-web-inner-1 {
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            top: -18px;
+            left: 0;
+            background-image: url(../img/Icons/arrow.svg);
+            background-size: cover;
+            transform: rotate(180deg);
+            
+        }
+    }
+
+    &__link-web-inner-2 {
+        position: relative;
+        &::after {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            top: -18px;
+            right: 0;
+            background-image: url(../img/Icons/arrow.svg);
+            background-size: cover;
+            
+        }
+    }
+
+	&__link-back {
+        display: inline-block;
+        padding-left: 55px;
+        transform: skew(23deg, 0deg);
+	}
+
+	&__link-next {
+        padding-right: 55px;
+        position: relative;
+        z-index: 1;
+	}
+
+    .link-web {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        font-family: 'Kalam', cursive;
+    }
+
+}
+
+
+.andrew-bennet {
+    max-width: 120px;
+}
+
+.evgeniy-batonovich {
+    max-width: 140px;
+}
+
+.andrew-bacardi {
+    max-width: 120px;
+}
+
+.alexandro-escobar {
+    max-width: 130px;
+}
+
+.enzo-higgins {
+    max-width: 110px;
+}
+
+.leopold-kuang {
+    max-width: 110px;
+}
+
+.kristofer-higgins {
+    max-width: 130px;
+}
+
+.sanya-zhurbik {
+    max-width: 110px;
+}
